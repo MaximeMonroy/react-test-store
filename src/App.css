@@ -156,7 +156,7 @@ legend {
 {
 	position: relative;
 	display: block;
-	padding: 19px 39px 18px 39px;
+	padding: 1rem;
 	color: var(--mainYellow);
 	margin: 0 auto;
 	background: transparent;

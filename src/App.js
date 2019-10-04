@@ -8,7 +8,7 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
 import Modal from './components/Modal';
-import Inscription from './components/Account/Inscription';
+import Inscription from './components/Account/Signup';
 import Connexion from './components/Account/Connexion';
 
 class App extends Component {
