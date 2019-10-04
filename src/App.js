@@ -8,6 +8,8 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
 import Modal from './components/Modal';
+import Inscription from './components/Account/Inscription';
+import Connexion from './components/Account/Connexion';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
           <Route exact path="/" component={ProductList}></Route>
           <Route path="/details" component={Details}></Route>
           <Route path="/cart" component={Cart}></Route>
+          <Route path="/inscription" component={Inscription}></Route>
+          <Route path="/connexion" component={Connexion}></Route>
           <Route component={Default}></Route>
         </Switch>
         <Modal />
